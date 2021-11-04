@@ -10,9 +10,15 @@ public class StringPractice{
     byte b[]= {65,66,67,68};
     String str4 = new String(b);
 
+    String str5 = new String("netbeans");
+    int len = str5.length();
+    String str6 = str5.toUpperCase();
+
     System.out.println(str1);
     System.out.println(str2);
     System.out.println(str3);
     System.out.println(str4);
+    System.out.println(len);
+    System.out.println(str6);
   }
 }
